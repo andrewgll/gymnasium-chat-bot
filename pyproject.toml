@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gymnazium-chat-bot"
+version = "0.1.0"
+description = ""
+authors = ["Andrii Hladkyi <andrii.hladkyi@maklai.com.ua>"]
+readme = "README.md"
+packages = [{include = "gymnazium_chat_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^20.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
